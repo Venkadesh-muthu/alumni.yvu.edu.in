@@ -12,52 +12,66 @@ class MainController extends BaseController
     }
     public function index()
     {
+        return $this->renderPage('Office of the International Affairs (OIA)', 'index');
+    }
+    public function aboutOia()
+    {
+        return $this->renderPage('About Yogi Vemana University OIA', 'about_oia');
+    }
+    public function director()
+    {
+        return $this->renderPage('Director', 'director');
+    }
+    public function associateDirector()
+    {
+        return $this->renderPage('Associate Director', 'associate_director');
+    }
+    public function facultyVisits()
+    {
+        return $this->renderPage('Faculty Recent Visits-Visiting Fellowships/Seminars', 'faculty_visits');
+    }
+    public function postdoctoral()
+    {
+        return $this->renderPage('Postdoctoral', 'postdoctoral');
+    }
+    public function internationalSeminars()
+    {
+        return $this->renderPage('International Seminars', 'international_seminars');
+    }
+    public function pressNews()
+    {
+        return $this->renderPage('Press News', 'press_news');
+    }
+    private function renderPage(string $title, string $content)
+    {
         return view('layout/templates', [
-            'title'   => 'Home Page',
-            'content' => 'index',
+            'title' => $title,
+            'content' => $content,
         ]);
     }
     public function about()
     {
-        return view('layout/templates', [
-            'title'   => 'About Us',
-            'content' => 'about',
-        ]);
+        return redirect()->to(base_url('/about-oia'));
     }
     public function controllers()
     {
-        return view('layout/templates', [
-            'title'   => 'Controllers',
-            'content' => 'controllers',
-        ]);
+        return redirect()->to(base_url('/director'));
     }
     public function staff()
     {
-        return view('layout/templates', [
-            'title'   => 'Staff',
-            'content' => 'staff',
-        ]);
+        return redirect()->to(base_url('/associate-director'));
     }
     public function latestInfo()
     {
-        return view('layout/templates', [
-            'title'   => 'Latest Info',
-            'content' => 'latest_info',
-        ]);
+        return redirect()->to(base_url('/press-news'));
     }
     public function downloads()
     {
-        return view('layout/templates', [
-            'title'   => 'Downloads',
-            'content' => 'downloads',
-        ]);
+        return redirect()->to(base_url('/'));
     }
     public function contact()
     {
-        return view('layout/templates', [
-            'title'   => 'Contact Us',
-            'content' => 'contact',
-        ]);
+        return redirect()->to(base_url('/#office-address'));
     }
 
 }

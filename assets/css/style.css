@@ -9966,6 +9966,66 @@ h5,
   font-size: 30px;
 }
 
+.ftco-navbar-light .navbar-brand {
+  gap: 12px;
+  color: #12345a;
+  text-decoration: none;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+.ftco-navbar-light .navbar-brand:hover,
+.ftco-navbar-light .navbar-brand:focus {
+  color: #0b2747;
+}
+.ftco-navbar-light .navbar-brand .brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.1;
+}
+.ftco-navbar-light .navbar-brand .brand-title {
+  color: #12345a;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -.025em;
+}
+.ftco-navbar-light .navbar-brand .brand-subtitle {
+  color: #a66a13;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.navbar-logo {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: contain;
+  margin: 0;
+}
+@media (max-width: 991.98px) {
+  .ftco-navbar-light .navbar-brand,
+  .ftco-navbar-light .navbar-brand:hover,
+  .ftco-navbar-light .navbar-brand:focus {
+    color: #fff;
+  }
+  .ftco-navbar-light .navbar-brand .brand-title {
+    color: #fff;
+  }
+  .ftco-navbar-light .navbar-brand .brand-subtitle {
+    color: #f2c879;
+  }
+  .navbar-logo {
+    width: 42px;
+    height: 42px;
+    flex-basis: 42px;
+  }
+  .ftco-navbar-light .navbar-brand .brand-title {
+    font-size: 16px;
+  }
+}
+
 .hero-wrap {
   width: 100%;
   height: 750px;
@@ -13030,3 +13090,67 @@ textarea.form-control {
   color: #ffffff;
   text-decoration: underline;
 }
+
+/* International Affairs landing page */
+.oia-hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(118deg,#102b4e 0%,#174977 58%,#217a91 100%)}
+.oia-hero .container{position:relative;z-index:1}
+.oia-hero .row{min-height:510px}
+.oia-hero h1{max-width:800px;margin:18px 0;color:#fff;font-size:clamp(2.6rem,6vw,5.2rem);font-weight:700;letter-spacing:-.045em;line-height:1.02}
+.oia-eyebrow,.oia-kicker{color:#bd7c25;font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.oia-eyebrow,.oia-kicker-light{color:#f2ce8f}
+.oia-hero-copy{max-width:650px;margin-bottom:28px;color:rgba(255,255,255,.82);font-size:clamp(1rem,2vw,1.2rem)}
+.oia-hero-link{margin-left:18px;color:#fff;font-weight:600}
+.oia-hero-link:hover,.oia-hero-link:focus{color:#f2ce8f}
+.oia-hero-orb{position:absolute;border:1px solid rgba(255,255,255,.13);border-radius:50%;pointer-events:none}
+.oia-hero-orb-one{width:520px;height:520px;right:-120px;bottom:-320px}
+.oia-hero-orb-two{width:330px;height:330px;right:70px;bottom:-225px}
+.oia-section{padding:88px 0}
+.oia-section-soft{background:#f4f7fa}
+.oia-section-heading{max-width:780px}
+.oia-heading{margin:10px 0 14px;color:#173451;font-size:clamp(1.85rem,3vw,2.6rem);font-weight:700;letter-spacing:-.035em}
+.oia-lead{color:#243d56;font-size:1.2rem;line-height:1.75}
+.oia-person-card,.oia-info-card,.oia-placement-card{border:1px solid #e5ebf1;border-radius:18px;background:#fff;box-shadow:0 12px 35px rgba(21,49,77,.06)}
+.oia-person-card{padding:34px 26px;color:#697789}
+.oia-person-card h2,.oia-person-card h3{margin:0 0 10px;color:#173451;font-size:1.15rem;font-weight:700}
+.leadership-photo{width:186px;height:186px;max-width:100%;margin-bottom:20px;border:5px solid #edf3f7;border-radius:50%;object-fit:cover;object-position:center}
+.oia-person-role{margin-bottom:8px;color:#a66a13;font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.oia-info-card{height:100%;padding:26px;transition:transform .2s ease,box-shadow .2s ease}
+.oia-info-card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(21,49,77,.1)}
+.oia-info-card h3{margin:12px 0 9px;color:#173451;font-size:1.08rem;font-weight:700}
+.oia-info-card p{margin:0;color:#627184;line-height:1.7}
+.oia-card-tag{color:#a66a13;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.oia-placement-card{height:100%;padding:22px}
+.oia-placement-card h3{margin:0 0 8px;color:#173451;font-size:1rem;font-weight:700}
+.oia-placement-card p{margin-bottom:3px;color:#a66a13;font-size:.9rem;font-weight:600}
+.oia-placement-card span,.oia-placement-card a{display:block;color:#718092;font-size:.87rem}
+.oia-placement-card a{margin-top:8px;color:#176591;word-break:break-word}
+.oia-note{color:#718092;font-size:.94rem;line-height:1.7}
+.oia-event-list{border-top:1px solid #e3eaf0}
+.oia-event{display:grid;grid-template-columns:130px 1fr;gap:26px;padding:28px 0;border-bottom:1px solid #e3eaf0}
+.oia-event h2,.oia-event h3{margin:0 0 8px;color:#173451;font-size:1.13rem;font-weight:700}
+.oia-event p{margin:0;color:#627184;line-height:1.7}
+.oia-event-date{color:#a66a13;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-align:center;text-transform:uppercase}
+.oia-event-date span{display:block;color:#173451;font-size:2.15rem;letter-spacing:-.04em;line-height:1.1}
+.oia-contact{padding:64px 0;color:rgba(255,255,255,.8);background:#132f4f}
+.oia-contact h2{margin:8px 0 12px;color:#fff;font-size:2rem;font-weight:700}
+.oia-closing-note{padding:24px 0;color:#718092;background:#102943;font-size:.86rem;line-height:1.7}
+.faculty-banner .carousel-item{position:relative}
+.faculty-banner .faculty-banner-caption{position:absolute;z-index:2;right:0;bottom:0;left:0;padding:70px 10% 22px;color:#fff;background:linear-gradient(to bottom,transparent,rgba(8,23,38,.94))}
+.faculty-banner .faculty-banner-caption p{max-width:1050px;margin:0 auto;font-size:1.05rem;font-weight:600;line-height:1.45;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,.35)}
+.faculty-visit-card{overflow:hidden;border:1px solid #e5ebf1;border-radius:18px;background:#fff;box-shadow:0 12px 35px rgba(21,49,77,.06)}
+.faculty-visit-image{display:block;width:100%;height:240px;object-fit:cover;object-position:center}
+.faculty-visit-copy{padding:24px;color:#627184;line-height:1.7}
+.postdoctoral-photo-trigger{display:block;width:170px;height:170px;margin:0 auto 18px;padding:0;border:0;border-radius:50%;background:transparent;cursor:zoom-in}
+.postdoctoral-photo{display:block;width:100%;height:100%;margin:0;border:4px solid #edf3f7;border-radius:50%;object-fit:cover;object-position:center}
+.postdoctoral-photo-modal{border:0;border-radius:0;background:transparent}
+.postdoctoral-image-wrap{position:relative;display:inline-block;max-width:100%}
+.postdoctoral-photo-close{position:absolute;z-index:2;top:8px;right:8px;width:42px;height:42px;padding:0;border:0;border-radius:50%;color:#fff;background:rgba(0,0,0,.55);font-size:32px;line-height:1;cursor:pointer}
+.postdoctoral-photo-close:hover,.postdoctoral-photo-close:focus-visible{background:rgba(0,0,0,.8)}
+.postdoctoral-modal-image{display:block;margin:0 auto;max-width:100%;max-height:82vh;object-fit:contain}
+.seminar-speaker-photo{float:left;width:128px;height:128px;margin:0 20px 12px 0;border-radius:14px;object-fit:cover;object-position:center}
+.press-news-card{height:100%;width:100%;margin:0;padding:0;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid #e5ebf1;border-radius:18px;background:#fff;box-shadow:0 12px 35px rgba(21,49,77,.06)}
+.press-news-trigger{cursor:zoom-in}
+body.press-news-page .ftco-navbar-light,body.press-news-page .ftco-navbar-light.scrolled{position:sticky!important;top:0;margin-top:0!important;transition:none!important}
+.press-news-photo{display:block;width:100%;height:220px;padding:10px;object-fit:contain;object-position:center;background:#fff}
+@media(min-width:1200px){.oia-navbar .navbar-nav>.nav-item>.nav-link{padding-right:8px;padding-left:8px;font-size:13px;letter-spacing:.02em}}
+@media(max-width:767.98px){.oia-hero .row{min-height:430px}.oia-section{padding:62px 0}.oia-event{grid-template-columns:78px 1fr;gap:16px}.oia-event-date{font-size:.62rem}.oia-event-date span{font-size:1.75rem}.faculty-banner .faculty-banner-caption{padding:44px 12% 12px}.faculty-banner .faculty-banner-caption p{font-size:.82rem;line-height:1.3}}

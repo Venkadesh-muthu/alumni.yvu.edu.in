@@ -27,40 +27,6 @@
   <script src="assets/js/google-map.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-// Change language
-function setLang(lang) {
-    const value = lang === 'en' ? '/en/en' : '/en/' + lang;
-    document.cookie = "googtrans=" + value + "; path=/";
-    document.cookie = "googtrans=" + value + "; path=/; domain=" + location.hostname;
-    location.reload();
-}
-
-// Detect selected language on load
-function getCurrentLang() {
-    const match = document.cookie.match(/googtrans=\/en\/(\w+)/);
-    return match ? match[1] : 'en';
-}
-
-// Set dropdown default
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById('langSelect').value = getCurrentLang();
-});
-
-function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-        {
-            pageLanguage: 'en',
-            includedLanguages: 'en,hi,te',
-            autoDisplay: false
-        },
-        'google_translate_element'
-    );
-}
-</script>
-
-<!-- <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
-
  <script>
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.navbar-nav .has-submenu > a')

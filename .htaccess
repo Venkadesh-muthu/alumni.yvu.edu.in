@@ -12,12 +12,10 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 
 # Deny direct access to PHP files
 <FilesMatch "\.php$">
-    Order Allow,Deny
-    Deny from all
+    Require all denied
 </FilesMatch>
 
 # Allow access only to index.php
 <Files "index.php">
-    Order Allow,Deny
-    Allow from all
+    Require all granted
 </Files>
