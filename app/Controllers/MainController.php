@@ -30,6 +30,18 @@ class MainController extends BaseController
     {
         return $this->renderPage('Faculty Recent Visits-Visiting Fellowships/Seminars', 'faculty_visits');
     }
+    public function equipment()
+    {
+        return $this->renderPage('Research Equipment at YVU', 'equipment');
+    }
+    public function mous()
+    {
+        return $this->renderPage('Memoranda of Understanding (MOUs)', 'mous');
+    }
+    public function foreignCollaborations()
+    {
+        return $this->renderPage('Foreign Collaborations', 'foreign_collaborations');
+    }
     public function postdoctoral()
     {
         return $this->renderPage('Postdoctoral', 'postdoctoral');

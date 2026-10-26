@@ -9,6 +9,16 @@
             <div class="row justify-content-center g-4">
                 <div class="col-sm-6 col-lg-4">
                     <article class="oia-person-card h-100 text-center">
+                        <img src="<?= base_url('assets/images/administration/vc.jpeg') ?>"
+                             class="leadership-photo" width="186" height="186"
+                             alt="Prof. Raja Shekhar Bellamkonda, Vice-Chancellor">
+                        <p class="oia-person-role">Vice-Chancellor</p>
+                        <h2>Prof. Raja Shekhar Bellamkonda</h2>
+                        <p class="mb-0">Yogi Vemana University, Kadapa, Andhra Pradesh, India</p>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <article class="oia-person-card h-100 text-center">
                         <img src="<?= base_url('assets/images/administration/director.jpg') ?>"
                              class="leadership-photo" width="186" height="186"
                              alt="Prof. P. Vasu Govardhana Reddy">

@@ -55,6 +55,9 @@
           <li class="nav-item"><a href="<?= base_url('/') ?>" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="<?= base_url('/about-oia') ?>" class="nav-link">About OIA</a></li>
           <li class="nav-item"><a href="<?= base_url('/faculty-visits') ?>" class="nav-link">Faculty Recent Visits</a></li>
+          <li class="nav-item"><a href="<?= base_url('/equipment') ?>" class="nav-link">Equipment</a></li>
+          <li class="nav-item"><a href="<?= base_url('/mous') ?>" class="nav-link">MOUs</a></li>
+          <li class="nav-item"><a href="<?= base_url('/foreign-collaborations') ?>" class="nav-link">Foreign Collaborations</a></li>
           <li class="nav-item"><a href="<?= base_url('/postdoctoral') ?>" class="nav-link">Postdoctoral</a></li>
           <li class="nav-item"><a href="<?= base_url('/international-seminars') ?>" class="nav-link">International Seminars</a></li>
           <li class="nav-item"><a href="<?= base_url('/press-news') ?>" class="nav-link">Press News</a></li>

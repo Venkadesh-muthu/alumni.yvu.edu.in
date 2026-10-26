@@ -3,7 +3,7 @@
         <div class="container">
             <h1 class="oia-heading">Press News</h1>
             <div class="row g-3">
-                <?php for ($i = 1; $i <= 4; $i++): ?>
+                <?php for ($i = 1; $i <= 5; $i++): ?>
                     <div class="col-sm-6">
                         <button type="button" class="press-news-card press-news-trigger" data-bs-toggle="modal" data-bs-target="#pressNewsPhotoModal" data-photo-src="<?= base_url('assets/images/news/news-' . $i . '.jpg') ?>" data-photo-alt="Press news photograph <?= $i ?>">
                             <img src="<?= base_url('assets/images/news/news-' . $i . '.jpg') ?>" alt="Press news photograph <?= $i ?>" class="press-news-photo">
