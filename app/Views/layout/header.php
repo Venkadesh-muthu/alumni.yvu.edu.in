@@ -37,7 +37,7 @@
         <img src="<?= base_url('assets/images/logo/yvu150-150.png') ?>"
             alt="YVU Logo" class="navbar-logo">
         <span class="brand-text">
-          <span class="brand-title">Office of the International Affairs (OIA)</span>
+          <span class="brand-title">Office of Alumni Affairs (Alumni)</span>
           <span class="brand-subtitle">Yogi Vemana University</span>
         </span>
       </a>
@@ -53,15 +53,10 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a href="<?= base_url('/') ?>" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="<?= base_url('/about-oia') ?>" class="nav-link">About OIA</a></li>
-          <li class="nav-item"><a href="<?= base_url('/faculty-visits') ?>" class="nav-link">Faculty Recent Visits</a></li>
-          <li class="nav-item"><a href="<?= base_url('/equipment') ?>" class="nav-link">Equipment</a></li>
-          <li class="nav-item"><a href="<?= base_url('/mous') ?>" class="nav-link">MOUs</a></li>
-          <li class="nav-item"><a href="<?= base_url('/foreign-collaborations') ?>" class="nav-link">Foreign Collaborations</a></li>
-          <li class="nav-item"><a href="<?= base_url('/postdoctoral') ?>" class="nav-link">Postdoctoral</a></li>
-          <li class="nav-item"><a href="<?= base_url('/international-seminars') ?>" class="nav-link">International Seminars</a></li>
-          <li class="nav-item"><a href="<?= base_url('/press-news') ?>" class="nav-link">Press News</a></li>
-        </ul>
+          <li class="nav-item"><a href="<?= base_url('/about') ?>" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="<?= base_url('/vision-core-purpose') ?>" class="nav-link">Vision & Core Purpose</a></li>
+          <li class="nav-item"><a href="<?= base_url('/contact') ?>" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="<?= base_url('/alumni-association') ?>" class="nav-link">Alumni Association</a></li>
       </div>
     </div>
   </nav>

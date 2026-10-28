@@ -1,76 +1,155 @@
-<main>
-
 <section class="py-5 bg-light">
-    <div class="container">
+  <div class="container">
 
-        <!-- ===== HEADING ===== -->
-        <div class="row justify-content-center mb-4">
-            <div class="col-md-8 text-center">
-                <h6 class="text-uppercase text-primary mb-2">
-                    Examination Wing
-                </h6>
-                <h2 class="font-weight-bold">
-                    Contact Us
-                </h2>
-            </div>
-        </div>
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
 
-        <!-- ===== CONTACT CONTENT ===== -->
-        <div class="row justify-content-center">
-            <div class="col-md-8">
+        <div class="bg-white shadow rounded-4 p-4 p-md-5">
 
-                <div class="card shadow-sm">
-                    <div class="card-body">
+          <!-- ===== CONTACT US ===== -->
+          <div id="contact-us">
 
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-striped mb-0">
-                                <tbody>
+            <h5 class="fw-bold mb-3 border-start border-4 border-primary ps-3">
+              Contact Us
+            </h5>
 
-                                    <tr>
-                                        <th width="30%">Address</th>
-                                        <td>
-                                            <strong>Controller of Examinations</strong><br>
-                                            Yogi Vemana University<br>
-                                            Vemanapuram<br>
-                                            Kadapa, Y.S.R Kadapa<br>
-                                            Andhra Pradesh, India<br>
-                                            Zip/Pin Code: 516005
-                                        </td>
-                                    </tr>
+            <p class="lh-lg mb-4">
+              Connect with the Office of Alumni Affairs at Yogi Vemana
+              University for alumni registration, networking, mentorship,
+              and other alumni-related activities.
+            </p>
 
-                                    <tr>
-                                        <th>Phone</th>
-                                        <td>
-                                            <a href="tel:+919703216198">
-                                                +91-9703216198
-                                            </a>
-                                        </td>
-                                    </tr>
+            <!-- CONTACT DETAILS -->
+            <div class="row g-4 align-items-stretch">
 
-                                    <tr>
-                                        <th>Email</th>
-                                        <td>
-                                            <a href="mailto:yvuconfidential@yogivemanauniversity.ac.in">
-                                                yvuconfidential@yogivemanauniversity.ac.in
-                                            </a>
-                                            <br>
-                                            <a href="mailto:examinations@yvu.edu.in">
-                                                examinations@yvu.edu.in
-                                            </a>
-                                        </td>
-                                    </tr>
+              <!-- CONTACT PERSON -->
+              <div class="col-12 col-md-6">
+                <div class="h-100 p-4 border rounded-3 bg-light">
 
-                                </tbody>
-                            </table>
-                        </div>
-
+                  <div class="d-flex align-items-start">
+                    <div class="text-primary me-3 flex-shrink-0">
+                      <i class="bi bi-person-badge fs-4"></i>
                     </div>
+
+                    <div>
+                      <h6 class="fw-bold mb-2">Contact Person</h6>
+                      <p class="mb-1">Dr T. Suresh Babu</p>
+                      <p class="text-muted mb-0">President</p>
+                    </div>
+                  </div>
+
+                  <hr class="my-3">
+
+                  <div class="d-flex align-items-start">
+                    <div class="text-primary me-3 flex-shrink-0">
+                      <i class="bi bi-telephone-fill fs-5"></i>
+                    </div>
+
+                    <div>
+                      <h6 class="fw-bold mb-1">Phone Number</h6>
+                      <a href="tel:8008006630"
+                         class="text-decoration-none">
+                        8008006630
+                      </a>
+                    </div>
+                  </div>
+
                 </div>
+              </div>
+
+              <!-- EMAIL ADDRESS -->
+              <div class="col-12 col-md-6">
+                <div class="h-100 p-4 border rounded-3 bg-light">
+
+                  <div class="d-flex align-items-start">
+                    <div class="text-primary me-3 flex-shrink-0">
+                      <i class="bi bi-envelope-fill fs-4"></i>
+                    </div>
+
+                    <div>
+                      <h6 class="fw-bold mb-2">Email Address</h6>
+
+                      <a href="mailto:alumniyvuk@gmail.com"
+                         class="text-decoration-none text-break">
+                        alumniyvuk@gmail.com
+                      </a>
+
+                      <p class="text-muted lh-lg mt-3 mb-0">
+                        Contact us for alumni-related enquiries and
+                        university engagement opportunities.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- OFFICE ADDRESS -->
+              <div class="col-12 col-md-6">
+                <div class="h-100 p-4 border rounded-3 bg-light">
+
+                  <div class="d-flex align-items-start">
+                    <div class="text-primary me-3 flex-shrink-0">
+                      <i class="bi bi-geo-alt-fill fs-4"></i>
+                    </div>
+
+                    <div>
+                      <h6 class="fw-bold mb-2">Office Address</h6>
+
+                      <p class="mb-1">Office of Alumni Affairs</p>
+                      <p class="mb-1">Yogi Vemana University</p>
+
+                      <p class="lh-lg mb-0">
+                        Vemanapuram, Kadapa,<br>
+                        Andhra Pradesh – 516005
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- GOOGLE FORM -->
+              <div class="col-12 col-md-6">
+                <div class="h-100 p-4 border rounded-3 bg-light">
+
+                  <div class="d-flex align-items-start">
+                    <div class="text-primary me-3 flex-shrink-0">
+                      <i class="bi bi-ui-checks fs-4"></i>
+                    </div>
+
+                    <div>
+                      <h6 class="fw-bold mb-2">
+                        Alumni Registration &amp; Enquiry
+                      </h6>
+
+                      <p class="lh-lg mb-3">
+                        Submit your details through our online form
+                        and stay connected with the YVU alumni community.
+                      </p>
+
+                      <a href="https://forms.gle/6wWDRSGRBN3gGK4i6"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         class="btn btn-primary rounded-pill px-4">
+                        <i class="bi bi-box-arrow-up-right me-2"></i>
+                        Open Google Form
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
 
             </div>
+          </div>
+
         </div>
+        <!-- ===== END CONTENT CARD ===== -->
 
+      </div>
     </div>
-</section>
 
-</main>
+  </div>
+</section>

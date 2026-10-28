@@ -6,19 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'MainController::index');
-$routes->get('/about-oia', 'MainController::aboutOia');
-$routes->get('/director', 'MainController::director');
-$routes->get('/associate-director', 'MainController::associateDirector');
-$routes->get('/faculty-visits', 'MainController::facultyVisits');
-$routes->get('/equipment', 'MainController::equipment');
-$routes->get('/mous', 'MainController::mous');
-$routes->get('/foreign-collaborations', 'MainController::foreignCollaborations');
-$routes->get('/postdoctoral', 'MainController::postdoctoral');
-$routes->get('/international-seminars', 'MainController::internationalSeminars');
-$routes->get('/press-news', 'MainController::pressNews');
 $routes->get('/about', 'MainController::about');
-$routes->get('/controllers', 'MainController::controllers');
-$routes->get('/staff', 'MainController::staff');
-$routes->get('/latest-info', 'MainController::latestInfo');
-$routes->get('/downloads', 'MainController::downloads');
+$routes->get('/vision-core-purpose', 'MainController::visionCorePurpose');
+$routes->get('/alumni-association', 'MainController::alumniAssociation');
 $routes->get('/contact', 'MainController::contact');

@@ -1,0 +1,13 @@
+CRITICAL - 2026-10-28 17:16:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alumni_association.php"
+[Method: GET, Route: alumni-association]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alumni_association.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('alumni_association', [], true)
+ 3 APPPATH\Controllers\MainController.php(36): view('alumni_association', [...])
+ 4 APPPATH\Controllers\MainController.php(27): App\Controllers\MainController->renderPage('Alumni Association', 'alumni_association')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->alumniAssociation()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
