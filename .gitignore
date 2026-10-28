@@ -1,0 +1,13 @@
+# CodeIgniter debug toolbar
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+# Environment configuration
+.env
+
+# Dependencies
+/vendor/
+
+# Operating system files
+.DS_Store
+Thumbs.db
