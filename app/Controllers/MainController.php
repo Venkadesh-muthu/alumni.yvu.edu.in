@@ -12,11 +12,11 @@ class MainController extends BaseController
     }
     public function index()
     {
-        return $this->renderPage('Office of the International Affairs (OIA)', 'index');
+        return $this->renderPage('Office of Alumni Affairs (Alumni)', 'index');
     }
     public function about()
     {
-        return $this->renderPage('About Yogi Vemana University OIA', 'about');
+        return $this->renderPage('About Yogi Vemana University (Alumni)', 'about');
     }
     public function visionCorePurpose()
     {

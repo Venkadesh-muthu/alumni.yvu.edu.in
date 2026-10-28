@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><?= esc($title ?? 'Office of the International Affairs (OIA)') ?> | Yogi Vemana University</title>
+    <title><?= esc($title ?? 'Office of Alumni Affairs (Alumni)') ?> | Yogi Vemana University</title>
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
     <meta name="google" content="notranslate">
