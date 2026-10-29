@@ -88,6 +88,31 @@
                     </article>
                 </div>
 
+                <!-- PRESIDENT -->
+                <div class="col-sm-6 col-lg-4">
+                    <article class="oia-person-card h-100 text-center">
+
+                        <img
+                            src="<?= base_url('assets/images/administration/President.jpeg') ?>"
+                            class="leadership-photo"
+                            width="186"
+                            height="186"
+                            alt="Dr Thummaluru Suresh Babu, President">
+
+                        <p class="oia-person-role">
+                            President
+                        </p>
+
+                        <h2>Dr Thummaluru Suresh Babu</h2>
+
+                        <p class="mb-0">
+                            Yogi Vemana University Alumni Affairs Office,
+                            Kadapa, Andhra Pradesh, India
+                        </p>
+
+                    </article>
+                </div>
+
                 <!-- GENERAL SECRETARY -->
                 <div class="col-sm-6 col-lg-4">
                     <article class="oia-person-card h-100 text-center">
@@ -105,31 +130,6 @@
                         </p>
 
                         <h2>P. Chitti Babu</h2>
-
-                        <p class="mb-0">
-                            Yogi Vemana University Alumni Affairs Office,
-                            Kadapa, Andhra Pradesh, India
-                        </p>
-
-                    </article>
-                </div>
-
-                <!-- PRESIDENT -->
-                <div class="col-sm-6 col-lg-4">
-                    <article class="oia-person-card h-100 text-center">
-
-                        <img
-                            src="<?= base_url('assets/images/administration/President.jpeg') ?>"
-                            class="leadership-photo"
-                            width="186"
-                            height="186"
-                            alt="Dr Thummaluru Suresh Babu, President">
-
-                        <p class="oia-person-role">
-                            President
-                        </p>
-
-                        <h2>Dr Thummaluru Suresh Babu</h2>
 
                         <p class="mb-0">
                             Yogi Vemana University Alumni Affairs Office,
